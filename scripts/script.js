@@ -24,7 +24,7 @@ function afficherProposition(proposition) {
  *  
  */
 function afficherEmail(nom, email, score) {
-    let mailto = `mailto:${email}?subject=Partage du score Azertype&body=Salut, je suis ${nom} et je viens de réaliser le score ${score} sur le site d'Azertype !`
+    let mailto = `mailto:${email}?subject=Partage du score Justype&body=Salut, je suis ${nom} et je viens de réaliser le score ${score} sur le site Justype !`
     location.href = mailto
 }
 

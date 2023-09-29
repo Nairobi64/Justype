@@ -39,6 +39,7 @@ h3 {
     color: var(--color-secondary);
 }
 
+
 /* Mise en forme des formulaires */
 input[type='radio'] {
     filter: grayscale(1); /* Grayscale passe le bouton en niveau de gris */
@@ -254,11 +255,16 @@ footer {
     }
 }
 
-
 /* En dessous de 800 px */
 @media screen and (max-width: 800px) {
     main {
         width: 90%;
         padding: 10px;
+    }
+    header h1{
+        font-size:16 px;
+    }
+    header h2{
+        font-size:14 px;
     }
 }
